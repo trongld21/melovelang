@@ -5,7 +5,7 @@
     }
     
     html {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
     
     body {
@@ -276,19 +276,24 @@
         top: 40%;
         z-index: 2;
         padding: 20px;
-        border-radius: 50%;
+        border-radius: 25%;
         background-color: #000;
         color: #fff;
         cursor: pointer;
-        opacity: 0.6;
+        opacity: 0.8;
+    }
+    
+    .slick-prev i,
+    .slick-next i {
+        font-size: 20px;
     }
     
     .slick-prev {
-        left: -40px;
+        left: -20px;
     }
     
     .slick-next {
-        right: -40px;
+        right: -20px;
     }
     /* CSS Achievements */
     
@@ -392,4 +397,311 @@
         color: #fff;
         cursor: pointer;
         border: 1px solid #383E56;
+    }
+    /* CSS TOP COURSES */
+    
+    #top-courses {
+        width: 100vw;
+        min-height: 100vh;
+    }
+    
+    #top-courses .top-courses-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5rem;
+    }
+    
+    #top-courses .top-courses-header h1 {
+        font-size: 42px;
+        opacity: 0.8;
+    }
+    
+    #top-courses .top-courses-header #courses {
+        padding: 10px 20px;
+    }
+    
+    #top-courses .top-courses-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #top-courses .top-courses-list .top-courses-item {
+        border: 1px solid #ccc;
+        width: 22%;
+        margin: 20px 10px;
+    }
+    
+    #top-courses .top-courses-list .top-courses-item .top-courses-container {
+        position: relative;
+    }
+    
+    #top-courses .top-courses-list .top-courses-item .top-courses-banner {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: orange;
+        font-size: 12px;
+        padding: 5px 10px;
+        border-radius: 5%;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    
+    #top-courses .top-courses-list .top-courses-item img {
+        width: 100%;
+        height: 25vh;
+    }
+    
+    #top-courses .top-courses-list .top-courses-item .top-courses-type {
+        margin: 20px;
+        font-size: 13px;
+        opacity: 0.5;
+    }
+    
+    #top-courses .top-courses-list .top-courses-item .top-courses-name {
+        margin: 20px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    #top-courses .top-courses-list .top-courses-item .top-courses-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 20px 10px 20px;
+    }
+    
+    #top-courses .top-courses-list .top-courses-item .top-courses-footer .top-courses-footer-left {
+        font-size: 12px;
+    }
+    
+    #top-courses .top-courses-list .top-courses-item .top-courses-footer .top-courses-footer-right {
+        font-weight: 700;
+    }
+    /* CSS MASTERSTUDY BLOG */
+    
+    #masterstudy-blog {
+        width: 100vw;
+        height: 100vh;
+        margin-bottom: 10rem;
+    }
+    
+    #masterstudy-blog h2 {
+        font-size: 42px;
+        padding: 5rem;
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    #masterstudy-blog .masterstudy-blog-carousel {
+        margin: 0 3rem;
+    }
+    
+    #masterstudy-blog .masterstudy-blog-carousel .masterstudy-blog-slide {
+        margin: 10px;
+        width: 28vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #masterstudy-blog .masterstudy-blog-carousel .masterstudy-blog-slide img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    #masterstudy-blog .masterstudy-blog-carousel .masterstudy-blog-slide .masterstudy-blog-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    #masterstudy-blog .masterstudy-blog-carousel .masterstudy-blog-slide .masterstudy-blog-container .masterstudy-blog-left {
+        width: 20%;
+    }
+    
+    #masterstudy-blog .masterstudy-blog-carousel .masterstudy-blog-slide .masterstudy-blog-container .masterstudy-blog-left {
+        border: 2px solid orange;
+        height: fit-content;
+        width: fit-content;
+        color: orange;
+    }
+    
+    #masterstudy-blog .masterstudy-blog-carousel .masterstudy-blog-slide .masterstudy-blog-container .masterstudy-blog-left .masterstudy-blog-date {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px solid orange;
+        align-items: center;
+        padding: 10px 5px;
+    }
+    
+    #masterstudy-blog .masterstudy-blog-carousel .masterstudy-blog-slide .masterstudy-blog-container .masterstudy-blog-left .masterstudy-blog-date .masterstudy-blog-day {
+        font-size: 22px;
+    }
+    
+    #masterstudy-blog .masterstudy-blog-carousel .masterstudy-blog-slide .masterstudy-blog-container .masterstudy-blog-left .masterstudy-blog-date .masterstudy-blog-month {
+        font-size: 14px;
+    }
+    
+    #masterstudy-blog .masterstudy-blog-carousel .masterstudy-blog-slide .masterstudy-blog-container .masterstudy-blog-left .masterstudy-blog-comment {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+    
+    #masterstudy-blog .masterstudy-blog-carousel .masterstudy-blog-slide .masterstudy-blog-container .masterstudy-blog-right {
+        width: 80%;
+    }
+    
+    #masterstudy-blog .masterstudy-blog-carousel .masterstudy-blog-slide .masterstudy-blog-container .masterstudy-blog-right .masterstudy-blog-title {
+        padding-right: 0;
+        font-weight: 1000;
+        font-size: 18px;
+        line-height: 22px;
+        word-spacing: 0;
+        color: #000;
+    }
+    
+    #masterstudy-blog .masterstudy-blog-carousel .masterstudy-blog-slide .masterstudy-blog-container .masterstudy-blog-right .masterstudy-blog-description {
+        margin: 0.5rem 0;
+        font-size: 14px;
+    }
+    
+    #masterstudy-blog .masterstudy-blog-carousel .masterstudy-blog-slide .masterstudy-blog-container .masterstudy-blog-right .masterstudy-blog-posted,
+    #masterstudy-blog .masterstudy-blog-carousel .masterstudy-blog-slide .masterstudy-blog-container .masterstudy-blog-right .masterstudy-blog-tags {
+        color: rgb(97, 97, 97);
+        font-size: 12px;
+    }
+    /* CSS FOOTER */
+    
+    #footer {
+        width: 100vw;
+        height: fit-content;
+        background-color: #273044;
+        display: flex;
+        align-items: top;
+        justify-content: space-around;
+        padding: 5rem;
+    }
+    
+    #footer .footer-colum {
+        margin: 0 1rem;
+        width: 25%;
+    }
+    
+    #footer .footer-colum .footer-content .footer-title {
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 2rem;
+    }
+    
+    #footer .footer-colum .footer-content .footer-about {
+        color: #fff;
+        font-size: 14px;
+    }
+    
+    #footer .footer-colum .footer-content .footer-about-button {
+        padding: 10px 20px;
+        color: #fff;
+        border: 2px solid #fff;
+        margin-top: 20px;
+        position: relative;
+        top: 4rem;
+    }
+    
+    #footer .footer-colum .footer-content .footer-popular .footer-popular-item a {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+        align-items: top;
+    }
+    
+    #footer .footer-colum .footer-content .footer-popular .footer-popular-item a img {
+        width: 70px;
+        height: 70px;
+        margin-right: 1rem;
+    }
+    
+    #footer .footer-colum .footer-content .footer-popular .footer-popular-item a .footer-popular-item-content {
+        color: #fff;
+    }
+    
+    #footer .footer-colum .footer-content .footer-popular .footer-popular-item a .footer-popular-item-content h4 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    #footer .footer-colum .footer-content .footer-popular .footer-popular-item a .footer-popular-item-content span {
+        font-size: 12px;
+        font-weight: 300;
+        opacity: 0.7;
+    }
+    
+    #footer .footer-colum .footer-content .footer-pages {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    #footer .footer-colum .footer-content .footer-pages .footer-pages-item a {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #fff;
+        color: #fff;
+    }
+    
+    #footer .footer-colum .footer-content .footer-pages .footer-pages-item a i {
+        margin-right: 1rem;
+        color: orange;
+    }
+    
+    #footer .footer-colum .footer-content .footer-pages .footer-pages-item a h4 {
+        font-weight: 400;
+    }
+    
+    #footer .footer-colum .footer-content .footer-contact {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    #footer .footer-colum .footer-content .footer-contact .footer-contact-item {
+        display: flex;
+        align-content: center;
+        justify-content: left;
+        color: #fff;
+        margin-bottom: 1rem;
+        font-size: 14px;
+    }
+    
+    #footer .footer-colum .footer-content .footer-contact .footer-contact-item i {
+        margin-right: 1rem;
+    }
+    /* CSS Copyright */
+    
+    #copyright {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        padding-left: 0.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        color: #fff;
+        font-weight: lighter;
+        width: 100%;
+        background-color: #273044;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
     }
